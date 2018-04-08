@@ -55,8 +55,3 @@ Fish includes a suite of tests:
 - `make test-lint`: runs linter/style checks
 - `make test-unit`: runs basic unit tests
 - `make test`: runs all of the above
-
-## PR your Changes
-
-Once you're finished with your changes, read through the [Contributing Guidelines](#contributing) to
-get your code merged upstream.

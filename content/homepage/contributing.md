@@ -2,7 +2,7 @@
 title: "Contributing to Fish"
 date: 2018-04-08
 anchor: "contributing"
-weight: 41
+weight: 42
 ---
 
 Fish accepts contributions via GitHub pull requests. This document outlines the process to help get your contribution accepted.
