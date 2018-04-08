@@ -1,0 +1,18 @@
+baseURL = "/"
+languageCode = "en-us"
+
+title = "Fish"
+subtitle = "Keep your fish fresh!"
+theme = "kraiklyn"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+[[menu.shortcuts]]
+name = "Fish on Github"
+url = "https://github.com/fishworks/fish"
+weight = 10
+
+[[menu.shortcuts]]
+name = "gofi.sh on Github"
+url = "https://github.com/fishworks/gofi.sh"
+weight = 10
