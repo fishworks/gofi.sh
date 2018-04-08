@@ -84,6 +84,7 @@ These track bugs with the code or problems with the documentation (i.e. missing 
 
 The issue lifecycle is mainly driven by the core maintainers, but is good information for those 
 contributing to Fish. All issue types follow the same general lifecycle. Differences are noted below.
+
 1. Issue creation
 2. Triage
     - The maintainer in charge of triaging will apply the proper labels for the issue. This 
@@ -152,7 +153,7 @@ Like any good open source project, we use Pull Requests to track code changes.
     - If the owner of a PR is _not_ listed in `OWNERS`, any core committer may
     merge the PR once it is approved.
 
-#### Documentation PRs
+#### A note about Documentation PRs
 
 Documentation PRs will follow the same lifecycle as other PRs. They will also be labeled with the 
 `docs` label. For documentation, special attention will be paid to spelling, grammar, and clarity 
