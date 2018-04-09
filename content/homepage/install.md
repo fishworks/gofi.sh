@@ -26,6 +26,12 @@ fish init
 Once you have fish up and running, you can upgrade at any time using
 
 ```shell
+fish install fish
+```
+
+Then:
+
+```
 fish upgrade fish
 ```
 
