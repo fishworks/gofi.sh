@@ -14,7 +14,8 @@ curl -fsSL https://raw.githubusercontent.com/fishworks/fish/master/scripts/insta
 Windows (Powershell, as Administrator):
 
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.ps1'))
 ```
 
 After running one of the install scripts:
