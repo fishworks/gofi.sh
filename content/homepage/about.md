@@ -7,7 +7,7 @@ weight: 11
 
 Fish works across all three major operating systems (Windows, MacOS, and Linux). It installs packages into its own directory and symlinks their files into `/usr/local` (or `C:\ProgramData` for Windows). You can think of it as the cross-platform Homebrew.
 
-```shell
+```
 $ cd /usr/local/Fish
 $ find Barrel
 Barrel

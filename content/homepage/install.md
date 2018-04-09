@@ -7,7 +7,7 @@ weight: 12
 
 MacOS/Linux:
 
-```shell
+```
 curl -fsSL https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.sh | bash
 ```
 
@@ -20,13 +20,13 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 
 After running one of the install scripts:
 
-```shell
+```
 fish init
 ```
 
 Once you have fish up and running, you can upgrade at any time using
 
-```shell
+```
 fish install fish
 ```
 

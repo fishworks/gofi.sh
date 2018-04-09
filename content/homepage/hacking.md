@@ -22,7 +22,7 @@ In most cases, install each prerequisite according to its instructions.
 Begin at Github by forking Fish, then clone your fork locally. Since Fish is a Go package, it
 should be located at $GOPATH/src/github.com/fishworks/fish.
 
-```shell
+```
 $ mkdir -p $GOPATH/src/github.com/fishworks
 $ cd $GOPATH/src/github.com/fishworks
 $ git clone git@github.com:<username>/fish.git
@@ -32,7 +32,7 @@ $ cd fish
 Add the conventional [upstream](https://help.github.com/articles/fork-a-repo/) git remote in order
 to fetch changes from Fish's main master branch and to create pull requests:
 
-```shell
+```
 $ git remote add upstream https://github.com/fishworks/fish.git
 ```
 
@@ -43,7 +43,7 @@ source code.
 
 Run `make` to build Fish:
 
-```shell
+```
 $ make bootstrap
 $ make
 ```

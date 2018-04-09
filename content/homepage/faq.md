@@ -9,7 +9,7 @@ weight: 30
 
 After running one of the [install scripts](#install):
 
-```shell
+```
 fish init
 ```
 
