@@ -10,7 +10,7 @@ weight: 30
 After running one of the [install scripts](#install):
 
 ```
-fish init
+gofish init
 ```
 
 ## How do I update my local packages?
@@ -18,31 +18,31 @@ fish init
 First update the rigs:
 
 ```
-fish update
+gofish update
 ```
 
 You can now find out what is outdated with:
 
 ```
-fish rotten
+gofish rotten
 ```
 
 Upgrade everything with:
 
 ```
-fish upgrade
+gofish upgrade
 ```
 
 Or upgrade a particular fish food with:
 
 ```
-fish upgrade <food>
+gofish upgrade <food>
 ```
 
 For example, to upgrade fish:
 
 ```
-fish upgrade fish
+gofish upgrade gofish
 ```
 
 ## How do I uninstall old versions of a fish food?
@@ -51,25 +51,25 @@ By default, Fish does not uninstall old versions of fish food, so over time you 
 versions. To remove them, simply use:
 
 ```
-fish cleanup <food>
+gofish cleanup <food>
 ```
 
 or clean up everything at once:
 
 ```
-fish cleanup
+gofish cleanup
 ```
 
 or to see what would be cleaned up:
 
 ```
-fish cleanup -n
+gofish cleanup -n
 ```
 
 ## Where does stuff get downloaded?
 
 Fish stores downloaded files to either `~/Library/Caches/Fish` for macOS, `~/.fish` for Linux, and
-`%APPDATA%/Local/Fish` for Windows. See `fish tank` to know more about Fish's environment.
+`%APPDATA%/Local/Fish` for Windows. See `gofish tank` to know more about Fish's environment.
 
 ## Why can't you support Homebrew formulas?
 
@@ -86,7 +86,7 @@ compatibility with Homebrew.
 
 ```
 brew unlink foo
-fish install foo
+gofish install foo
 ```
 
 ## How can I add something to the FAQ?

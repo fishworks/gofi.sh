@@ -21,19 +21,19 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 After running one of the install scripts:
 
 ```
-fish init
+gofish init
 ```
 
 Once you have fish up and running, you can upgrade at any time using
 
 ```
-fish install fish
+gofish install gofish
 ```
 
 Then:
 
 ```
-fish upgrade fish
+gofish upgrade gofish
 ```
 
 {{% block note %}}
