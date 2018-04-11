@@ -26,11 +26,10 @@ programs can see what’s going on. We suggest you use `find` on a few of the fo
 see how it is all arranged.
 
 Packages are installed according to their fish food, which are written in Lua and live in `/usr/local/Fish/Rigs/github.com/fishworks/fish-food`.
-Check one out a simple one e.g. `fish edit helm` to get a feel for the format.
 
 ## Basic Instructions
 
-Make sure you run `fish update` before you start. This prepares your Rigs by bumping them to the latest revision.
+Make sure you run `gofish update` before you start. This prepares your Rigs by bumping them to the latest revision.
 
 Before submitting a new food, make sure your package:
 
@@ -41,10 +40,19 @@ Before submitting a new food, make sure your package:
 
 Before submitting a new food, make sure you read over our [contribution guidelines](#contributing).
 
-## Install the Formula
+## Create the Fish Food
 
 ```
-fish install --log-level 9001 foo
+gofish update # make sure we've got a fresh checkout of master
+vim $(gofish create foo)
+```
+
+## Test the Fish Food
+
+...By installing it!
+
+```
+gofish install --log-level 9001 foo
 ```
 
 ## Manuals
@@ -61,8 +69,8 @@ and `sdl_mixer` over `sdl-mixer` or `sdlmixer`.
 Everything is built on git, so contribution is easy:
 
 ```
-fish update # required in more ways than you think
-cd /usr/local/Fish/Rigs/github.com/fishworks/fish-food
+eval $(gofish tank)
+cd $FISH_DEFAULT_RIG
 # Create a new git branch for your food so your pull request is easy to
 # modify if any changes come up during review.
 git checkout -b <some-descriptive-name>
