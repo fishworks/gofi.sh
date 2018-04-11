@@ -5,7 +5,7 @@ anchor: "cookbook"
 weight: 40
 ---
 
-Fish food is a package definition written in Lua. It can be created with `fish create <food>`. Fish
+Fish food is a package definition written in Lua. It can be created with `gofish create <food>`. Fish
 food use the Lua runtime to provide simple scripting capabilities that other markdown languages
 cannot provide on their own.
 
