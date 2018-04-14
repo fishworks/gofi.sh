@@ -9,7 +9,7 @@ Fish food is a package definition written in Lua. It can be created with `gofish
 food use the Lua runtime to provide simple scripting capabilities that other markdown languages
 cannot provide on their own.
 
-## Fish Terminology
+## GoFish terminology
 
 | Term    | Description                           | Example                                             |
 |---------|---------------------------------------|-----------------------------------------------------|
@@ -17,17 +17,17 @@ cannot provide on their own.
 | Rig     | A git repository containing fish food | /usr/local/Fish/Rigs/github.com/fishworks/fish-food |
 | Barrel  | All fish food are installed here      | /usr/local/Fish/Barrel                              |
 
-## An Introduction
+## An introduction
 
-Fish uses git for contributing to the project.
+GoFish uses git for contributing to the project.
 
-Fish installs to the Barrel and then symlinks some of the installation into /usr/local so that other
+GoFish installs to the Barrel and then symlinks some of the installation into /usr/local so that other
 programs can see what’s going on. We suggest you use `find` on a few of the food in your Barrel to
 see how it is all arranged.
 
 Packages are installed according to their fish food, which are written in Lua and live in `/usr/local/Fish/Rigs/github.com/fishworks/fish-food`.
 
-## Basic Instructions
+## Basic instructions
 
 Make sure you run `gofish update` before you start. This prepares your Rigs by bumping them to the latest revision.
 
@@ -40,14 +40,14 @@ Before submitting a new food, make sure your package:
 
 Before submitting a new food, make sure you read over our [contribution guidelines](#contributing).
 
-## Create the Fish Food
+## Create the fish food
 
 ```
 gofish update # make sure we've got a fresh checkout of master
 vim $(gofish create foo)
 ```
 
-## Test the Fish Food
+## Test the fish food
 
 ...By installing it!
 
@@ -57,7 +57,7 @@ gofish install --log-level 9001 foo
 
 ## Manuals
 
-Fish expects to find manual pages in `/usr/local/share/man/`, not in `/usr/local/man/`.
+GoFish expects to find manual pages in `/usr/local/share/man/`, not in `/usr/local/man/`.
 
 ## A quick word on naming
 
@@ -70,7 +70,7 @@ Everything is built on git, so contribution is easy:
 
 ```
 eval $(gofish tank)
-cd $FISH_DEFAULT_RIG
+cd $GOFISH_DEFAULT_RIG
 # Create a new git branch for your food so your pull request is easy to
 # modify if any changes come up during review.
 git checkout -b <some-descriptive-name>
@@ -82,9 +82,9 @@ git commit
 
 Now you just need to push your commit to GitHub.
 
-If you haven’t forked Fish yet, go to the fish-food repository and hit the Fork button.
+If you haven’t forked GoFish yet, go to the fish-food repository and hit the Fork button.
 
-If you have already forked Fish on GitHub, then you can manually push (just make sure you have been pulling from the fishworks/fish-food master):
+If you have already forked GoFish on GitHub, then you can manually push (just make sure you have been pulling from the fishworks/fish-food master):
 
 git push https://github.com/myname/fish-food/ <what-you-called-your-branch>
 
