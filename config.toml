@@ -1,15 +1,15 @@
 baseURL = "/"
 languageCode = "en-us"
 
-title = "Fish"
+title = "GoFish"
 subtitle = "Keep your fish fresh!"
 theme = "kraiklyn"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
 [[menu.shortcuts]]
-name = "Fish on Github"
-url = "https://github.com/fishworks/fish"
+name = "GoFish on Github"
+url = "https://github.com/fishworks/gofish"
 weight = 10
 
 [[menu.shortcuts]]

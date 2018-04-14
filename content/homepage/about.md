@@ -5,7 +5,7 @@ anchor: "about"
 weight: 11
 ---
 
-Fish works across all three major operating systems (Windows, MacOS, and Linux). It installs packages into its own directory and symlinks their files into `/usr/local` (or `C:\ProgramData` for Windows). You can think of it as the cross-platform Homebrew.
+GoFish works across all three major operating systems (Windows, MacOS, and Linux). It installs packages into its own directory and symlinks their files into `/usr/local` (or `C:\ProgramData` for Windows). You can think of it as the cross-platform Homebrew.
 
 ```
 $ cd /usr/local/Fish
@@ -21,7 +21,7 @@ $ ls -l /usr/local/bin | grep helm
 helm -> ../Fish/Barrel/helm/2.8.2/darwin-amd64/helm
 ```
 
-Fish takes the ideas of [Homebrew Formulas](https://docs.brew.sh/Formula-Cookbook#homebrew-terminology) to the next level by installing pre-packaged tools. Fish food are simple Lua scripts:
+GoFish takes the ideas of [Homebrew Formulas](https://docs.brew.sh/Formula-Cookbook#homebrew-terminology) to the next level by installing pre-packaged tools. GoFish's fish food are simple Lua scripts:
 
 ```lua
 local name = "helm"

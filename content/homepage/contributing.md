@@ -1,15 +1,15 @@
 ---
-title: "Contributing to Fish"
+title: "Contributing to GoFish"
 date: 2018-04-08
 anchor: "contributing"
 weight: 42
 ---
 
-Fish accepts contributions via GitHub pull requests. This document outlines the process to help get your contribution accepted.
+GoFish accepts contributions via GitHub pull requests. This document outlines the process to help get your contribution accepted.
 
 ## Reporting a Security Issue
 
-Most of the time, when you find a bug in Fish, it should be reported using [GitHub issues](https://github.com/fishworks/fish/issues).
+Most of the time, when you find a bug in GoFish, it should be reported using [GitHub issues](https://github.com/fishworks/gofish/issues).
 However, if you are reporting a _security vulnerability_, please email a report to [Matt Fisher](mailto:matt.fisher+security-issues@fishworks.io)
 directly. This will give myself a chance to try to fix the issue before it is exploited in the wild.
 
@@ -17,7 +17,7 @@ directly. This will give myself a chance to try to fix the issue before it is ex
 
 Whether you are a user or contributor, official support channels include:
 
-- GitHub [issues](https://github.com/fishworks/fish/issues)
+- GitHub [issues](https://github.com/fishworks/gofish/issues)
 - IRC - tbd at a later date
 
 Before opening a new issue or submitting a new pull request, it's helpful to search the project - it's likely that another user has already reported the issue you're facing, or it's a known issue that we're already aware of.
@@ -29,28 +29,28 @@ when all outstanding issues/PRs have been closed or moved to another milestone.
 
 ## Semver
 
-Fish maintains a strong commitment to backward compatibility. All of our changes to protocols and
-formats are backward compatible from Fish 1.0 until Fish 2.0. No features, flags, or commands are
+GoFish maintains a strong commitment to backward compatibility. All of our changes to protocols and
+formats are backward compatible from GoFish 1.0 until GoFish 2.0. No features, flags, or commands are
 removed or substantially modified (other than bug fixes).
 
 We also try very hard to not change publicly accessible Go library definitions inside of the `pkg/`
 directory of our source code, but it is not guaranteed to be backwards compatible as we move the
 project forward.
 
-If there's some package you rely on inside of Fish that would be useful to split out and maintain
-separately, [open an issue to discuss it!](https://github.com/fishworks/fish/issues/new)
+If there's some package you rely on inside of GoFish that would be useful to split out and maintain
+separately, [open an issue to discuss it!](https://github.com/fishworks/gofish/issues/new)
 
 For a quick summary of our backward compatibility guidelines for releases between 1.0 and 2.0:
 
 - Command line commands, flags, and arguments MUST be backward compatible
 - Directory formats within /usr/local/Fish MUST be backward compatible
-- Any fish food that worked on a previous version of Fish MUST work on a new version of Fish, barring the cases where
+- Any fish food that worked on a previous version of GoFish MUST work on a new version of GoFish, barring the cases where
    - it is out of our control, e.g. the Operating System itself changed, and
    - the fish food worked because it exploited a bug
 
 ## Issues
 
-Issues are used as the primary method for tracking anything to do with the Fish project.
+Issues are used as the primary method for tracking anything to do with the GoFish project.
 
 ### Issue Types
 
@@ -83,7 +83,7 @@ These track bugs with the code or problems with the documentation (i.e. missing 
 ### Issue Lifecycle
 
 The issue lifecycle is mainly driven by the core maintainers, but is good information for those 
-contributing to Fish. All issue types follow the same general lifecycle. Differences are noted below.
+contributing to GoFish. All issue types follow the same general lifecycle. Differences are noted below.
 
 1. Issue creation
 2. Triage
@@ -161,7 +161,7 @@ Documentation PRs will follow the same lifecycle as other PRs. They will also be
 
 ## Labels
 
-The following tables define all label types used for Fish. It is split up by category.
+The following tables define all label types used for GoFish. It is split up by category.
 
 ### Common
 
@@ -182,7 +182,7 @@ The following tables define all label types used for Fish. It is split up by cat
 | `help wanted`      | This issue is one the core maintainers would appreciate help with |
 | `proposal`         | This issue is a proposal                                          |
 | `question/support` | This issue is a support request or question                       |
-| `good first issue` | This issue is a good for someone new to contributing to Fish      |
+| `good first issue` | This issue is a good for someone new to contributing to GoFish    |
 | `wontfix`          | The issue has been discussed and will not be accepted             |
 
 ### Release Specific

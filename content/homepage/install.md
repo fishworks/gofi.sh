@@ -8,14 +8,14 @@ weight: 12
 MacOS/Linux:
 
 ```
-curl -fsSL https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.sh | bash
 ```
 
 Windows (Powershell, as Administrator):
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/fish/master/scripts/install.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.ps1'))
 ```
 
 After running one of the install scripts:
@@ -24,7 +24,7 @@ After running one of the install scripts:
 gofish init
 ```
 
-Once you have fish up and running, you can upgrade at any time using
+Once you have GoFish up and running, you can upgrade at any time using
 
 ```
 gofish install gofish

@@ -39,7 +39,7 @@ Or upgrade a particular fish food with:
 gofish upgrade <food>
 ```
 
-For example, to upgrade fish:
+For example, to upgrade GoFish:
 
 ```
 gofish upgrade gofish
@@ -47,7 +47,7 @@ gofish upgrade gofish
 
 ## How do I uninstall old versions of a fish food?
 
-By default, Fish does not uninstall old versions of fish food, so over time you will accumulate old
+By default, GoFish does not uninstall old versions of fish food, so over time you will accumulate old
 versions. To remove them, simply use:
 
 ```
@@ -68,21 +68,21 @@ gofish cleanup -n
 
 ## Where does stuff get downloaded?
 
-Fish stores downloaded files to either `~/Library/Caches/Fish` for macOS, `~/.fish` for Linux, and
-`%APPDATA%/Local/Fish` for Windows. See `gofish tank` to know more about Fish's environment.
+GoFish stores downloaded files to either `~/Library/Caches/Fish` for macOS, `~/.fish` for Linux, and
+`%APPDATA%/Local/Fish` for Windows. See `gofish tank` to know more about GoFish's environment.
 
 ## Why can't you support Homebrew formulas?
 
-Fish aims to work across all three major operating systems. Most Homebrew formulas in core work
+GoFish aims to work across all three major operating systems. Most Homebrew formulas in core work
 based on compiling a package from source and symlinking the result in other parts of `/usr/local`.
 Because compiling from source differs vastly between all three operating systems, it didn't feel
 right to provide such a system for the initial release.
 
 However, certain formulae provide pre-compiled versions known as bottles, which are available at
-https://bintray.com/homebrew/bottles. Fish can use these pre-compiled bottles to get *some*
+https://bintray.com/homebrew/bottles. GoFish can use these pre-compiled bottles to get *some*
 compatibility with Homebrew.
 
-## I have packages I installed with Homebrew, however I want to use Fish instead. How?
+## I have packages I installed with Homebrew, however I want to use GoFish instead. How?
 
 ```
 brew unlink foo
