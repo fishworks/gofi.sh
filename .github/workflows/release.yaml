@@ -14,3 +14,4 @@ jobs:
           source_dir: 'public'
           container_name: '$web'
           connection_string: ${{ secrets.AzureBlobStorageConnectionString }}
+          sync: false
