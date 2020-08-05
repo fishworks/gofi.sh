@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: chabad360/hugo-actions@master
-      - uses: bacongobbler/azure-blob-storage-upload@v1.1.1
+      - uses: bacongobbler/azure-blob-storage-upload@main
         with:
           source_dir: 'public'
           container_name: '$web'
