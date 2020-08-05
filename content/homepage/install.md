@@ -8,14 +8,14 @@ weight: 12
 MacOS/Linux:
 
 ```
-curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/fishworks/gofish/main/scripts/install.sh | bash
 ```
 
 Windows (Powershell, as Administrator):
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/gofish/master/scripts/install.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/fishworks/gofish/main/scripts/install.ps1'))
 ```
 
 After running one of the install scripts:
