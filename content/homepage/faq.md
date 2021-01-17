@@ -68,8 +68,8 @@ gofish cleanup -n
 
 ## Where does stuff get downloaded?
 
-GoFish stores downloaded files to either `~/Library/Caches/Fish` for macOS, `~/.fish` for Linux, and
-`%APPDATA%/Local/Fish` for Windows. See `gofish tank` to know more about GoFish's environment.
+GoFish stores downloaded files to either `~/Library/Caches/gofish` for macOS, `~/.gofish` for Linux, and
+`%APPDATA%/Local/gofish` for Windows. See `gofish tank` to know more about GoFish's environment.
 
 ## Why can't you support Homebrew formulas?
 
